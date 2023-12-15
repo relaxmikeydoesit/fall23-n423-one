@@ -30,7 +30,7 @@ function saveDogImage(selectedDog) {
   <>
 <Grid className={styles.grid} columns='1'>
     <Grid.Column>
-        <Header as='h2'>Header Pup:  Shadow. All other dogs are from TheDogAPI.</Header>
+        <Header className={styles.gold} as='h2'>Header Pup:  Shadow. All other dogs are from TheDogAPI.</Header>
       </Grid.Column>
       <Grid.Column>
         <Button className={styles.button} content='Reload Dogs' icon='sync' color='orange' onClick={getDogImages} />

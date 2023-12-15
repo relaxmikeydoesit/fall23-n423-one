@@ -6,6 +6,7 @@ export default function DogInfo() {
     return (
 
         <>
+        <h1> Dog Info </h1>
         
         </>
 
