@@ -1,0 +1,18 @@
+#gold {
+  color: #edd15d;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(25%, auto));
+  /* max-width: var(--max-width); */
+  width: 90vw;
+  padding: 10px;
+  /* gap: 1rem; */
+  margin-left: 5%;
+}
+
+.button {
+  margin-left: 25px;
+}
+
